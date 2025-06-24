@@ -1,0 +1,62 @@
+
+.modal-header{
+    flex-direction: column;
+}
+#cards-cont{
+    /*the quiz page dispay should be set to none before the fade in can takes effect*/
+    display: none;
+    background-color: #c16706;
+    position: relative;
+}
+#greeting{
+    display: none;
+}
+
+#mySubBtn{
+    position: absolute;
+    /* right: 0; */
+    bottom: 0;
+    height: auto;
+    width: auto;
+    left: 57%;
+}
+#scoreAnnouncement{
+    position: absolute;
+    top: 6%;
+    bottom: 0;
+    color: lawngreen;
+    display: inline-block;
+    height: 10%;
+    margin-top: 0;
+    align-content: end;
+    right: 0;
+    width: 100%;
+}
+
+.modal-footer{
+    display: none;
+}
+#scoreAnnouncement{
+    font-weight: bold;
+}
+
+#results{
+    background-color: yellow;
+    color: red;
+    margin: auto;
+    display: inline-block;
+}
+#timeRes{
+    background-color: black;
+    color: white;
+    margin: auto;
+    display: inline-block;
+}
+
+#modal2{
+    display: none;
+}
+
+#modal3{
+    display: none;
+}
